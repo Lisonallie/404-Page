@@ -26,6 +26,7 @@ a {
     font-size: 40px;
     font-family: 'Quicksand', sans-serif;
     border-radius: 30px;
+    border: 1px solid rgb(158, 158, 158);
     position: absolute;
     left: 6%;
     top: 47%;
@@ -33,7 +34,7 @@ a {
     text-decoration: none;
     padding: 8px;
     color: white;
-    background-color: rgb(49, 140, 182)
+    background-color: rgb(131, 183, 196)
 }
 span.up {
     position: absolute;
@@ -42,7 +43,7 @@ span.up {
 h1 {
     font-family: 'Quicksand', sans-serif;
     font-size: 400px;
-    margin-right: -90px;
+    margin-right: 215px;
     text-align: center;
     color: white;
     text-shadow: 18px 7px 12px rgb(158, 158, 158)
@@ -52,6 +53,6 @@ p {
     font-size: 30px;
     color: rgb(114, 114, 114);
     text-align: center;
-    margin-left: 230px;
-    margin-top: 430px;
+    margin-left: 30px;
+    margin-top: 470px;
 }
