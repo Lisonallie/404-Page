@@ -1,7 +1,13 @@
+body {
+    background-image: url("chinabg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 img.sadbg {
-
+    z-index: 0
 }
 img.sadcloud {
+
 
 }
 img.happy {
@@ -11,7 +17,7 @@ span {
 
 }
 h1 {
-    
+
 }
 p {
 
