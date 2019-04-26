@@ -5,13 +5,17 @@ body {
     background-size: cover;
 }
 img.sadbg {
+    position: absolute;
     z-index: 0;
 }
 img.sadcloud {
+    position: absolute;
     z-index: 1;
     float: left;
 }
 img.happy {
+    position: absolute;
+    visibility: hidden;
     z-index: 2;
 }
 a {
@@ -32,5 +36,6 @@ h1 {
 }
 p {
     font-family: 'Quicksand', sans-serif;
-    color: white;
+    font-size: 30px;
+    color: rgb(114, 114, 114);
 }
