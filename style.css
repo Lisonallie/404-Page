@@ -1,58 +1,66 @@
 body {
     background-image: url("rain.jpg");
     background-repeat: no-repeat;
-    margin: auto;
-    max-height: 700px;
-    width: 900px;
     background-size: cover;
 }
-img.sadcloud {
-    position: absolute;
-    z-index: 1;
-    float: left;
-    left: 4%;
-    top: -3%;
-    width: 420px;
-    height: 420px;
+div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-img.happy {
-    position: absolute;
-    visibility: hidden;
-    z-index: 2;
-    width: 700px;
-    max-height: 700px;
+.sadcloud {
+    animation-name: shake;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
 }
+@keyframes shake {
+    from,
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+      transform: translate3d(-10px, 0, 0);
+    }
+    20%,
+    40%,
+    60%,
+    80% {
+      transform: translate3d(10px, 0, 0);
+    }
+  }
+  div.butt {
+    display: inline-flex;
+    align-items: center;
+  }
 a {
     font-size: 40px;
     font-family: 'Quicksand', sans-serif;
     border-radius: 30px;
     border: 1px solid rgb(158, 158, 158);
-    position: absolute;
-    left: 6%;
-    top: 47%;
-    z-index: 0;
     text-decoration: none;
     padding: 8px;
     color: white;
     background-color: rgb(131, 183, 196)
 }
-span.up {
-    position: absolute;
-    top: -5%;
+a:hover {
+    background-color: pink;
+    cursor: pointer;
 }
 h1 {
     font-family: 'Quicksand', sans-serif;
-    font-size: 400px;
-    margin-right: 215px;
-    text-align: center;
+    font-size: 300px;
+    margin:0;
+    display:inline-block;
     color: white;
     text-shadow: 18px 7px 12px rgb(158, 158, 158)
 }
 p {
     font-family: 'Quicksand', sans-serif;
     font-size: 30px;
-    color: rgb(114, 114, 114);
     text-align: center;
-    margin-left: 30px;
-    margin-top: 470px;
+    color: rgb(114, 114, 114);
 }
