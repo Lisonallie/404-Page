@@ -9,6 +9,8 @@ img.sadbg {
 }
 img.sadcloud {
     z-index: 1;
+    float: left;
+    top: 40%;
 }
 img.happy {
     z-index: 2;
@@ -23,8 +25,10 @@ a {
     background-color: rgb(49, 140, 182)
 }
 h1 {
-
+    font-family: 'Quicksand', sans-serif;
+    font-size: 200px;
+    text-align: right;
 }
 p {
-
+    font-family: 'Quicksand', sans-serif;
 }
