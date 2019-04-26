@@ -1,20 +1,24 @@
 body {
-    background-image: url("chinabg.jpg");
+    background-image: url("rain.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    max-height: 100%;
 }
 img.sadbg {
-    z-index: 0
+    z-index: 0;
 }
 img.sadcloud {
-
-
+    z-index: 1;
 }
 img.happy {
-
+    z-index: 2;
 }
 span {
-
+    font-size: 40px;
+    border-radius: 15px;
+    padding: 8px;
+    color: white;
+    background-color: rgb(49, 140, 182)
 }
 h1 {
 
