@@ -1,8 +1,8 @@
 body {
     background-image: url("rain.jpg");
     background-repeat: no-repeat;
+    width: 900px;
     background-size: cover;
-    max-height: 100%;
 }
 img.sadbg {
     z-index: 0;
@@ -15,7 +15,9 @@ img.happy {
 }
 a {
     font-size: 40px;
-    border-radius: 15px;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 30px;
+    text-decoration: none;
     padding: 8px;
     color: white;
     background-color: rgb(49, 140, 182)
