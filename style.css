@@ -32,9 +32,9 @@ div {
       transform: translate3d(10px, 0, 0);
     }
   }
-  div.butt {
-    display: inline-flex;
-    align-items: center;
+  div.but {
+    display: flex;
+    justify-content: center;
   }
 a {
     font-size: 40px;
